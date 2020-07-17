@@ -9,24 +9,6 @@
 #include "lua/lapi.h"
 #include "lua/lualib.h"
 #include "lua/lauxlib.h"
-/* this lua is literally magic. */
-/*
-local NOTOUCH = "untouchable value lmfao";
-local notouchmyass = $NOTOUCH;
-
-notouchmyass = "haha? untouchable? no think so.";
-notouchmyass = @notouchmyass;
-notouchmyass = "i am now a \"random\" value (HIDE THE EVIDENCE)";
-
-print(NOTOUCH, notouchmyass);
-
-output:
-
-haha? untouchable? no think so.
-i am now a "random" value (HIDE THE EVIDENCE)
-
-(if you don't believe me test it) i am master of lua yes
-*/
 
 #include "console.h"
 
