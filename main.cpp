@@ -199,7 +199,7 @@ int getinput(bool &player)
 
 // Check each  outcome -- Our algorithm failed 20%+ of the time.
 // only because it was hard to do an algorithm specifically for
-// diagonals when calculating for explicitly only rows/columns; and we're too lazy.
+// diagonals when calculating for explicitly only rows/columns, and we're too lazy.
 // yes
 
 int checkAlg(bool dat[9])
